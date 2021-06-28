@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>My resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- Main section -->
-  <div>
+  <div class="main-container">
     <!-- Main content section -->
-    <div>
+    <div class="main-content-section">
       <!-- About section -->
-      <div>
-        <h2>Front-End Developer</h2>
+      <div class="about-me-section">
+        <h2 class="about-me-profession">Front-End Developer</h2>
         <h1>Ilya Balykov</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
           et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -19,10 +23,10 @@
       </div>
       <!-- End of about -->
       <!-- Projects section -->
-      <div>
+      <div class="my-projects-section">
         <h3>Projects</h3>
         <ol>
-          <li>
+          <li class="projects-item">
             <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
             <span>..........</span>
             <span>[ HTML5, CSS3 ]</span>
@@ -41,7 +45,7 @@
       </div>
       <!-- End of projects -->
       <!-- Work experience section -->
-      <div>
+      <div class="my-work-experience-section">
         <h3>Work Experience</h3>
         <!-- Company 3 -->
         <div>
@@ -107,7 +111,7 @@
       </div>
       <!-- End of work experience -->
       <!-- Education section -->
-      <div>
+      <div class="my-education-section">
         <h3>Education</h3>
         <!-- Institution 1 section-->
         <div>
@@ -121,43 +125,43 @@
     </div>
     <!-- End of main content -->
     <!-- Sidebar section -->
-    <aside>
+    <aside class="sidebar-section">
       <img src="img/photo.jpg" alt="My photo">
       <!-- Contacts section -->
-      <div>
-        <h3>Contacts</h3>
+      <div class="contacts-section">
+        <h3 class="sidebar-title">Contacts</h3>
         <div>
-          <span>C:</span>
-          <a href="tel:+79177147738">+79177147738</a>
+          <span class="contacts-section-type">C:</span>
+          <a class="contacts-section-link" href="tel:+79177147738">+79177147738</a>
         </div>
         <div>
-          <span>E:</span>
-          <a href="mailto:balkov.ilya.88@gmail.com">balkov.ilya.88@gmail.com</a>
+          <span class="contacts-section-type">E:</span>
+          <a class="contacts-section-link" href="mailto:balkov.ilya.88@gmail.com">balkov.ilya.88@gmail.com</a>
         </div>
       </div>
       <!-- End of contacts -->
       <!-- Tech Skills section -->
-      <div>
-        <h3>Tech Skills</h3>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>GIT</li>
-          <li>WebPack</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Node.js</li>
+      <div class="tech-skills-section">
+        <h3 class="sidebar-title">Tech Skills</h3>
+        <ul class="tech-skills-list">
+          <li class="tech-skills-item"><span class="tech-skills-item-text">HTML5</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-item-text">CSS3</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-item-text">GIT</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-item-text">WebPack</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-item-text">JavaScript</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-item-text">React.js</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-item-text">Node.js</span></li>
         </ul>
       </div>
       <!-- End of Tech Skills -->
       <!-- Soft Skills section -->
-      <div>
-        <h3>Soft Skills</h3>
-        <ul>
-          <li>Scrum</li>
-          <li>Agile</li>
-          <li>GTD</li>
-          <li>Teamwork</li>
+      <div class="soft-skills-section">
+        <h3 class="sidebar-title">Soft Skills</h3>
+        <ul class="soft-skills-list">
+          <li class="soft-skills-item"><span class="soft-skills-item-text">Scrum</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-item-text">Agile</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-item-text">GTD</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-item-text">Teamwork</span></li>
         </ul>
       </div>
       <!-- End of Soft Skills -->
