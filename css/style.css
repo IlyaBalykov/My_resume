@@ -79,6 +79,10 @@ body {
 .my-projects-bracket {
     color: #000;
 }
+.my-projects-space {
+    border: black 2px;
+    width: 100px;
+}
 
 /* My work experience section */
 
@@ -158,9 +162,6 @@ body {
 .tech-skills-section {
     margin: 50px 0 0 40px;
 }
-.soft-skills-section {
-    margin: 45px 0 0 40px;
-}
 .sidebar-title {
     font-style: normal;
     font-weight: bold;
@@ -203,19 +204,48 @@ body {
     line-height: 24px;
     color: #fff;
 }
+.tech-skills-list>li:nth-child(5),
+.tech-skills-list>li:nth-child(6),
+.tech-skills-list>li:nth-child(7),
+.tech-skills-list>li:nth-child(5)>span,
+.tech-skills-list>li:nth-child(6)>span,
+.tech-skills-list>li:nth-child(7)>span
+{
+    color: #808790;
+}
 
 /* Soft skills section */
 
+.soft-skills-section {
+    margin: 45px 0 0 40px;
+}
 .soft-skills-list {
     padding-left: 17px;
 }
 .soft-skills-item {
-    color: #FB6D3A;
+    /*color: #FB6D3A;*/
+    color: #808790;;
 }
 .soft-skills-item-text {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #fff;
+    /*color: #fff;*/
+    color: #808790;
+}
+
+/* Social networks section */
+
+.social-links-section {
+    margin: 45px 0 0 40px;
+}
+.social-links-icons {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin: 20px 0 0 -40px;
+}
+.social-links-item {
+    margin: 5px;
 }
