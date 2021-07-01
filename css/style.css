@@ -86,6 +86,9 @@ body {
 
 /* My work experience section */
 
+.my-work-experience-section {
+    margin-bottom: 50px;
+}
 .my-work-experience-company-block {
     margin-bottom: 15px;
 }
@@ -125,6 +128,9 @@ body {
 
 /* My education section */
 
+.my-education-section {
+    margin-bottom: 50px;
+}
 .my-education-university {
     font-style: normal;
     font-weight: bold;
@@ -149,6 +155,26 @@ body {
 }
 .my-education-divider {
     color: #000;
+}
+
+/* My certificates section */
+
+.my-certificates-block{
+    display: flex;
+    justify-content: center;
+}
+.my-certificates-item {
+    width: 100px;
+    margin: 10px 15px 0 0;
+    cursor: pointer;
+
+}
+.my-certificates-item:hover {
+    position: fixed;
+    z-index: 2;
+    bottom: 30%;
+    left: calc(50% - 300px);
+    width: 600px;
 }
 
 /* Sidebar section */
